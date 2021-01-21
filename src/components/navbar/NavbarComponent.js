@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
 import './navbar.scss';
-import icon from './../../../assets/images/amazon-icon.jpeg';
+
+import SearchBox from './searchbox/Searchbox';
+import NavbarRight from './navbarright/NavbarRight';
+import NavbarLeft from './navbarleft/NavbarLeft';
 
 export default class NavbarComponent extends Component{
 
     render(){
         return (
             <div className="navbar navbar--size navbar--theme">
-                <div className="navbar__left navbar__left--size">
-                    <div className="navbar__logo navbar__logo--size">
-                        <a href="#" className="navbar__logo-link">
-                            <span className="navbar__logo-base"/>
-                        </a>
-                    </div>
+                <div className="navbar__left">
+                    <NavbarLeft/>
                 </div>
                 <div className="navbar__center">
-
+                    <SearchBox/>
                 </div>
-                <div className="navbar__right"></div>
+                <div className="navbar__right">
+                    <NavbarRight/>
+                </div>
             </div>
         )
     }

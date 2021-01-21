@@ -9,6 +9,8 @@
     "build": "webpack"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
     "cookie-parser": "~1.4.4",
     "css-loader": "^5.0.1",
     "debug": "~2.6.9",

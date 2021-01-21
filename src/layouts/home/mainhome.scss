@@ -1,0 +1,19 @@
+.mainhome{
+
+    &--theme{
+        // background-image: linear-gradient(to top right, orange, yellow, white);
+    }
+
+    &--size{
+        width: 100%;
+        height: calc(100vh - 70px);
+    }
+
+    &-transparent{
+
+        &--size{
+            width: 100%;
+            height: calc(100vh - 70px);
+        }
+    }
+}

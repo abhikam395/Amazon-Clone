@@ -1,0 +1,41 @@
+.select-language{
+    width: 30px;
+    min-height: 40px;
+    position: relative;
+    display: flex;
+    margin-left: 30px;
+
+    &:hover{
+        border: 2px solid white;
+    }
+}
+
+.flag{
+    width: 30px;
+    height: 30px;
+    background-image: url('./../../../../assets/images/india-flag.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrowdropdown{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding-left: 5px;
+}
+
+.content{
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-top: 20px;
+    left: 0px;
+    min-height: 300px;
+    min-width: 200px;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 2px 2px 1px 1px grey;
+}

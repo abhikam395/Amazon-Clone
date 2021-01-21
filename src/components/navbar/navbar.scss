@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-
+    align-items: center;
 
     &--size{
         height: 70px;
@@ -8,37 +8,21 @@
     }
 
     &--theme{
-
+        background-color: #131921;
     }
 
     &__left{
         flex: 1;
-        background-color: aqua;
+        display: flex;
+        padding: 0 5px;
     }
 
     &__center{
         flex: 3;
-        background-color: gainsboro;
-    }
-
-    &__logo{
-        flex: 1;
-
-        &--link{
-            width: 100%;
-            background-color: rebeccapurple;
-            height: 50px;
-        }
-
-        &-base{
-            background-color: red;
-            background: url("./../../../assets/images/amazon-icon.jpeg");
-            background-repeat: repeat-x;
-        }
     }
 
     &__right{
         flex: 1;
-        background-color: rebeccapurple;
+        padding: 0 5px;
     }
 }

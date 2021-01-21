@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import './navbarleft.scss';
 
+import { LocationOn } from '@material-ui/icons';
+
 export default class NavbarLeft extends Component{
 
     render(){
@@ -12,7 +14,7 @@ export default class NavbarLeft extends Component{
                     </a>
                 </div>
                 <div className="navbar__location">
-                    <span className="navbar__location-icon"></span>
+                    <LocationOn/>
                     <div>
                         <span className="navbar__hello">Hello</span>
                         <span className="navbar__address-label">Select your address</span>

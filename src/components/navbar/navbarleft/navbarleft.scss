@@ -36,9 +36,11 @@
         padding: 5px;
         flex: 1;
         cursor: pointer;
+        display: flex;
+        align-items: center;
 
         &:hover{
-            border: 2px solid white;
+            border: 1px solid white;
         }
 
         div{
@@ -52,7 +54,7 @@
     }
 
     &__address-label{
-        font-size: 14px;
+        font-size: 13px;
         padding-top: 3px;
         font-weight: bold;
     }

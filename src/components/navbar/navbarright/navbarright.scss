@@ -11,8 +11,8 @@
 }
 
 .flag{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-image: url('./../../../../assets/images/india-flag.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,11 +31,58 @@
     display: none;
     position: absolute;
     top: 100%;
-    margin-top: 20px;
     left: 0px;
     min-height: 300px;
     min-width: 200px;
     background-color: white;
     z-index: 1;
-    box-shadow: 2px 2px 1px 1px grey;
+    box-shadow: 2px 2p lightgray;
+
+    &-en{
+        display: flex;
+        padding: 10px;
+    }
+
+    &-line{
+        border: none;
+        border-top: 1px solid lightgray;
+    }
+
+    label{
+        margin-left: 10px;
+    }
+}
+
+.languages{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.language{
+    width: 100%;
+}
+
+.language-label{
+    font-size: 12px;
+}
+
+.navbar-auth{
+    position: relative;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    
+    &:hover{
+        border: 2px solid white;
+    }
+
+    span{
+        font-size: 12px;
+    }
 }

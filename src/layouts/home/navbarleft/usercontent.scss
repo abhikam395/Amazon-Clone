@@ -1,0 +1,17 @@
+.user-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+    right: 0px;
+
+    &--size{
+        height: 70vh;
+        width: 500px;
+    }
+
+    &--theme{
+        background-color: white;
+        box-shadow: 2px 2p lightgray;
+    }
+}
